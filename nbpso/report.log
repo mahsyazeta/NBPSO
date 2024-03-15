@@ -37,3 +37,4 @@
 2024-03-11 02:34:10,015 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.505, best pos: [0.54448032 1.44871887 0.669904   ... 1.44048744 1.81235952 1.1546772 ]
 2024-03-12 21:57:17,954 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
 2024-03-12 21:57:51,200 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.505, best pos: [1.97866082 1.00967799 1.60002618 ... 0.78182437 1.58544769 1.89645821]
+2024-03-15 08:03:54,042 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
