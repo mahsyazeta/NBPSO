@@ -42,3 +42,31 @@
 2024-04-08 04:28:30,920 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 1, 'p': 2, 'r': 1, 'interval': (0.0, 1.0), 'iteration': 30, 'n_processes': 1}
 2024-04-08 04:31:12,378 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 1, 'p': 2, 'r': 1, 'interval': (0.0, 1.0), 'iteration': 30, 'n_processes': 1}
 2024-04-08 04:31:14,670 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -0.53, best pos: [0.71206713 0.88427115 0.88576508 ... 0.72433977 0.92918071 0.82486228]
+2024-05-13 23:19:30,241 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:20:24,757 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:22:28,981 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:23:15,676 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:27:30,276 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:28:11,894 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:29:35,297 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:31:05,055 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:32:35,717 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:34:07,696 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:34:53,545 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:39:27,382 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:42:00,670 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:44:03,824 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:45:27,352 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:46:03,400 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:46:53,572 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:48:15,512 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-13 23:48:16,307 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.27812499999999996, best pos: [0.38152285 0.90508322 0.8048975  ... 0.30881173 0.0160424  0.56573699]
+2024-05-14 00:28:24,574 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-14 00:28:25,536 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.27812499999999996, best pos: [0.67723175 0.85113458 0.92887965 ... 0.60350329 0.31518595 0.84581351]
+2024-05-14 00:30:27,158 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-14 00:36:15,856 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-14 00:37:26,688 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-14 01:08:37,102 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-14 01:08:37,656 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.27812499999999996, best pos: [0.89399167 0.57617133 0.07032796 0.36919612]
+2024-05-14 01:10:18,402 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
+2024-05-14 01:11:31,409 - pyswarms.single.global_best - INFO - Optimize for 10 iters with {'c1': 0.1, 'c2': 0.1, 'w': 0.1}
