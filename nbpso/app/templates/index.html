@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="center-content">
+    <h1>ANALISIS SENTIMEN OPINI MASYARAKAT</h1>
+    <h1>PADA TAYANGAN TV INDONESIA</h1>
+    <h4>Metode Naive Bayes Classifier dengan Optimasi Particle Swarm Optimization</h4>
+    <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file">
+        <input type="submit" value="Upload">
+    </form>
+    <p>*Dataset memiliki kolom Sentiment dan Teks Tweet</p>
+</div>
+{% endblock %}

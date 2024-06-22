@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="center-content">
+    <h2>Uploaded Dataset</h2>
+    {% for table in tables %}
+        {{ table|safe }}
+    {% endfor %}
+</div>
+{% endblock %}

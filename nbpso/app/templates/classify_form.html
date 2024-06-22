@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="center-content">
+    <h1>Classification Results</h1>
+    <form action="{{ url_for('classify_data') }}" method="post">
+        <div class="form-row">
+            <label for="model_type">Select Model Type:</label>
+            <select id="model_type" name="model_type">
+                <option value="multinomial">Multinomial Naive Bayes</option>
+                <option value="bernoulli">Bernoulli Naive Bayes</option>
+                <option value="gaussian">Gaussian Naive Bayes</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <input type="checkbox" id="use_optimization" name="use_optimization">
+            <label for="use_optimization">Use Optimization</label>
+        </div>
+        <button type="submit">Classify</button>
+    </form>
+    {% if tables %}
+        <div>
+            <h2>Classification Table</h2>
+            {{ tables[0] | safe }}
+        </div>
+    {% endif %}
+    {% if metrics %}
+        <div>
+            <h2>Average Metrics</h2>
+            <p>Accuracy: {{ metrics['accuracy'] }}%</p>
+            <p>Precision: {{ metrics['precision'] }}%</p>
+            <p>Recall: {{ metrics['recall'] }}%</p>
+        </div>
+    {% endif %}
+    {% if sentiment_dist_path %}
+        <div>
+            <h2>Sentiment Distribution</h2>
+            <img src="{{ url_for('static', filename='sentiment_distribution.png') }}" alt="Sentiment Distribution">
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
+ 
